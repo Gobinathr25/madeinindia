@@ -88,9 +88,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",              
+"./node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           }
         },
         "lint": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "madeinindia"
+    }
+  },
+  "defaultProject": "madeinindia",
+  "cli": {
+    "analytics": "42448417-3bd1-4e20-bf79-38d8e183f11e"
+  }
 }
